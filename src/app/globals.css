@@ -21,3 +21,23 @@
     text-wrap: balance;
   }
 }
+
+@layer components {
+    .custom-button {
+        border:1px solid gainsboro;
+        border-radius: 10px;
+        @apply w-36 ml-3
+    }
+
+    .custom-form {
+      @apply flex grid grid-cols-1
+    }
+
+    .custom-input {
+      @apply rounded-md w-4/5 border border-solid border-inherit mx-3 
+    }
+    
+    .custom-form-div {
+      @apply  mb-2 ml-3
+    }
+}
